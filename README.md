@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Android development, Web development and Python modules
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me: 
-  e-mail: jorge.terencesantana@gmail.com ~
+  e-mail: jorge.terence@outlook.com ~
   Twitter: [...] ~
   Instagram: [...]
 
