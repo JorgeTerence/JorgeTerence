@@ -1,11 +1,12 @@
 ```js
-const me  = {
+const me = {
   name: "Jorge Terence",
   age: 18,
-  college: "Fatec",
+  college: "Fatec São Caetano do Sul",
   languages: ["Português", "English", "日本語"],
-  programmingLanguages: ["Python", "Go", "JavaScript", "HTML", "CSS", "PHP"],
-  learning: ["Rust", "Svelte", "DevOps"],
-  catOwner: true,
+  programmingLanguages: ["Python", "JavaScript", "PHP", "Java", "C", "Go"],
+  tools: ["Docker", "WSL", "Git", "Azure", "Trello"],
+  learning: ["Rust", "Svelte", "DevOps", "Project Management"],
+  cats: ["Nico"],
 };
 ```
