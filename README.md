@@ -1,12 +1,19 @@
-```js
-const me = {
-  name: "Jorge Terence",
-  age: 18,
-  college: "Fatec São Caetano do Sul",
-  languages: ["Português", "English", "日本語"],
-  programmingLanguages: ["Python", "JavaScript", "PHP", "Java", "C", "Go"],
-  tools: ["Docker", "WSL", "Git", "Azure", "Trello"],
-  learning: ["Rust", "Svelte", "DevOps", "Project Management"],
-  cats: ["Nico"],
-};
+```rust
+struct Student {
+    name: String,
+    age: u8,
+    college: String,
+    languages: Vec<String>,
+    cats: Vec<Cat>,
+}
+
+fn main() {
+    let me = Student {
+        name: String::from("Jorge Terence"),
+        age: 18,
+        college: String::from("Fatec São Caetano do Sul"),
+        languages: vec![&"Português", &"English", &"日本語"],
+        cats: vec![nico],
+    };
+}
 ```
