@@ -1,18 +1,18 @@
 ```rust
-struct Student {
-    name: String,
+struct Student<'a> {
+    name: &'a str,
     age: u8,
-    college: String,
-    languages: Vec<String>,
+    college: &'a str,
+    languages: Vec<&'a str>,
     cats: Vec<Cat>,
 }
 
 fn main() {
     let me = Student {
-        name: String::from("Jorge Terence"),
-        age: 18,
-        college: String::from("Fatec São Caetano do Sul"),
-        languages: vec![&"Português", &"English", &"日本語"],
+        name: "Jorge Terence",
+        age: 19,
+        college: "Fatec SCS",
+        languages: vec!["Português", "English", "日本語"],
         cats: vec![nico],
     };
 }
